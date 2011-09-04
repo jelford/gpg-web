@@ -1,9 +1,9 @@
-= gpg-web =
+# gpg-web #
 
 The goal of this project is to provide a specification (and implementation) for
 authenticating and encrypting web requests (HTTP) using GPG in the browser.
 
-== Motivation ==
+## Motivation ##
 
 Every modern browser has support for encryption and authentication via SSL,
 so why bother re-solving the problem?
@@ -23,7 +23,7 @@ so why bother re-solving the problem?
    standard CAs (for example, do we really trust that Verisign wouldn't issue
    the US government a certificate for wikileaks.org?)
 
-== Background ==
+## Background ##
 
 This is not the first time anyone has had a go at implementing GPG
 authentication in the browser. FireGPG was a browser plugin for verifying and
